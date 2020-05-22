@@ -1,20 +1,6 @@
-* {
-    background-color: rgba(0, 0, 0, 0.6);
-    color: #3355;
-    list-style-type: none;
-}
-
 html {
-    background-color: black;
-}
-
-#search-bar, #search-bar-btn {
-    color: blanchedalmond;
-    border: 1px solid;
-}
-
-ul { 
-    float: left;
+    background: black;
+    color: #4488;
     text-align: center;
 }
 
@@ -25,29 +11,25 @@ img {
     left: 5%;
 }
 
-a:hover {
-    color: blanchedalmond;
-    text-decoration: underline;
-    cursor: default;
+#search-bar-wrapper, .col {
+	display: flex;
+	align-content: center;
+	justify-content: center;
 }
 
-#main, #toro, #trice {
-    display: flex;
-    justify-content: center;
+li {
+	list-style: none;
 }
 
-a {
-    text-decoration: none;
+a, a:hover {
+	color:#4488;
+	text-decoration:none;
+	cursor:default;
 }
 
-#sbtn:active: #sbtn:hover {
-    border: 1px blanchedalmond solid;
-    color:white;
-    background:white;
+#search-bar, #search-bar-btn, #sbtn {
+	background: black;
+	color: blanchedalmond;
+	border: 1px #333 solid;
 }
-
-#search-bar-wrapper {
-	display:flex;
-	align-content:center;
-	justify-content:center;
 /*6699*/
